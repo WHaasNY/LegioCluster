@@ -28,7 +28,7 @@ The LegioCluster/ folder contains all files and folders needed to analyze Illumi
 - add_species.py  allows users to modify the pipeline to analyze additional bacterial species. Requires at least one reference genome (FASTA file) for that species.
 
 ### Authors:
-Wolfgang Haas, Pascal Lapierre, and Kimberlee A. Musser
+Wolfgang Haas, Pascal Lapierre, and Kimberlee A. Musser; 
 Wadsworth Center, New York State Department of Health, Albany NY, USA 
 
 ### Acknowledgements: 
