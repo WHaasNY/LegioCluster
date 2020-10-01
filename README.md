@@ -19,7 +19,7 @@ LegioCluster is a whole-genome sequencing analysis pipeline designed to determin
 ### Tutorial:
 The LegioCluster program contains a Tutorial folder. It is highly recommended that new users go through the Tutorial.pdf file to familiarize themselves with the program.
 
-### running LegioCluster:
+### Running LegioCluster:
 - LegioCluster.py  starts with an interactive menu to properly format all required input data into an input TXT file. The best way to start LegioCluster. 
 - LegioCluster_main.py <input.txt>  can be used to start LegioCluster when a properly formatted input TXT file is already present in the input/ folder.
 
@@ -29,8 +29,6 @@ The LegioCluster/ folder contains all files and folders needed to analyze Illumi
 
 ### Authors:
 Wolfgang Haas, Pascal Lapierre, and Kimberlee A. Musser
-
-### Author Affiliations: 
 Wadsworth Center, New York State Department of Health, Albany NY, USA 
 
 ### Acknowledgements: 
