@@ -9,7 +9,7 @@ LegioCluster is a whole-genome sequencing analysis pipeline designed to determin
 - Python 3.7 or higher
 - the Python packages pydot, numpy and matplotlib, which can be installed with:   pip install <package-name>
 
-### Installing LegioCluster (Ubuntu):
+### Installing LegioCluster (Ubuntu, MacOS):
 1) download the LegioCluster-master.zip file from GitHub: Code > Download ZIP
 2) copy the LegioCluster-master.zip to a designated working directory
 3) unzip the file: unzip LegioCluster-master.zip
