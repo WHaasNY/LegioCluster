@@ -14,7 +14,7 @@ LegioCluster is a whole-genome sequencing analysis pipeline designed to determin
 2) copy the LegioCluster-master.zip to a designated working directory
 3) unzip the file: unzip LegioCluster-master.zip
 4) run the install program, which will generate needed folders and links and change the name of the LegioCluster-master folder to LegioCluster: 
-	bash LegioCluster-master/install.sh
+	<q>bash LegioCluster-master/install.sh</q>
 
 ### Tutorial:
 The LegioCluster program contains a Tutorial folder. It is highly recommended that new users go through the Tutorial.pdf file to familiarize themselves with the program.
