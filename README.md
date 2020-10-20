@@ -20,7 +20,7 @@ LegioCluster is a whole-genome sequencing analysis pipeline designed to determin
 The LegioCluster program contains a Tutorial folder. It is highly recommended that new users go through the Tutorial.pdf file to familiarize themselves with the program.
 
 ### Running LegioCluster:
-- <div bgcolor="silver"> LegioCluster.py</div>  starts with an interactive menu to properly format all required input data into an input TXT file. The best way to start LegioCluster. 
+- <p style="color: red">LegioCluster.py</p>  starts with an interactive menu to properly format all required input data into an input TXT file. The best way to start LegioCluster. 
 - <q>LegioCluster_main.py <input.txt></q>  can be used to start LegioCluster when a properly formatted input TXT file is already present in the <q>input/</q> folder.
 
 ### Working with species other than Legionella:
