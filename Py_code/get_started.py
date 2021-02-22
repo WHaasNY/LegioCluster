@@ -69,7 +69,7 @@ def get_foldername(initials):
     yr, mo, dy, hr, mn, sc, kdv1, kdv2, kdv3 = los
     
     # put together the folder name, e.g.: WHYYMMDD_HHMMSS/
-    work_dir = initials + yr[:-2] + mo + dy + '_' + hr + mn + sc + '/' 
+    work_dir = initials + yr[2:] + mo + dy + '_' + hr + mn + sc + '/' 
           
     return work_dir
 
