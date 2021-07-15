@@ -8,6 +8,7 @@ LegioCluster is a whole-genome sequencing analysis pipeline designed to determin
 - Docker
 - Python 3.7 or higher
 - the Python packages <q>pydot</q>, <q>numpy</q> and <q>matplotlib</q>, which can be installed with:   <q>pip install PACKAGE</q>
+- <q>Graphviz</q>, which can be installed with <q>sudo apt install graphviz</q>
 
 ### Installing LegioCluster (Ubuntu, MacOS):
 1) download the LegioCluster-master.zip file from GitHub: <q>Code > Download ZIP</q>
