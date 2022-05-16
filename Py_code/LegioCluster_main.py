@@ -56,7 +56,9 @@ This module will:
     120 New Scotland Ave., Albany, New York 12208
     wolfgang.haas@health.ny.gov
     
-last update: 24 September 2020
+last update: 16 May 2022
+- get_isolate_list(SS_dir) will create an empty "prev_isolates.txt" file if none
+  can be found, instead of just exiting with an error message
 """
 
 
@@ -172,16 +174,21 @@ def get_isolate_list(SS_dir):
 
     ISOLATE_LIST = []
 
-    try: 
+    if os.path.exists(BASE_PATH + GENOMES_dir + SS_dir + 'prev_isolates.txt'):
         with open(BASE_PATH + GENOMES_dir + SS_dir + 'prev_isolates.txt', 'r')\
         as infile:
             for line in infile:
                 line = line.rstrip('\n')
                 ISOLATE_LIST.append(line)
-        return ISOLATE_LIST
-    except:
-        print('Sorry, file "prev_isolates.txt" not found.')
-                
+        
+    else:
+        print('File "prev_isolates.txt" not found, creating one.')
+        with open(BASE_PATH + GENOMES_dir + SS_dir + 'prev_isolates.txt', 'a')\
+        as outfile:
+            print('', file=outfile)
+
+    return ISOLATE_LIST
+             
 
 
 def check_job(initials, sp_abbr, isolate, raw_reads_1, raw_reads_2, SS_dir):
